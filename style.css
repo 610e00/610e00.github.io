@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.8;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+}
+
+aside {
+    width: 30%;
+    background-color: #143806a7;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.myphoto img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    color: rgb(192, 189, 152);
+    text-decoration: none;
+}
+
+section {
+    width: 90%;
+    position: relative;
+    padding: 10;
+    background-color: #e8f5e9;
+}
+
+.topBackground {
+    position: relative;
+    width: 100%;
+}
+
+.topBackground img {
+    width: 100%;
+    display: block;
+    opacity: 0.4;
+}
+
+.contactInfomation {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 10;
+}
+
+.contactInfomation a img {
+    width: auto;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.content {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.content .card {
+    max-width: 100%;
+    margin-bottom: 25px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #fff;
+    width: 120%;
+}
+ 
+.skills, .language .progress-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill {
+    width: 30%;
+    margin: 15px;
+    background-color: #143806a7;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.progress-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.progress-bar span {
+    display: block;
+    height: 10px;
+    background-color: #046207;
+    border-radius: 5px;
+}
+ .card img{
+    width: 300px;
+ }
+
+ .selfIntroduction h2, .education h2, .experience h2, .skills h2, .language h2 {
+    color: #045d11;
+    font-size: 30px;
+    font-weight: bold; 
+}
+
+.experience ul li {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #319609a7;
+}
+
+.experience ul {
+    list-style-type: none;
+    padding-left: 10;
+}
+
+.experience ul li img {
+    margin-right: 10px;
+}
+
+.experienceItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.experienceText {
+    width: 40%;
+}
+
+.experienceText h3 {
+    font-size: 20px;
+    color: #143806a7;
+}
+
+.experiencePhoto {
+    width: 45%;
+}
+
+.experiencePhoto img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.experienceItem.reverse {
+    flex-direction: row-reverse;
+}
+
+.experienceItem p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+#backToTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
